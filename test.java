@@ -15,6 +15,6 @@ public class test{
         a.addItem();
         b.deleteItem();
         //TODO: why there is not need to do a.close() to close the mem slot and no res leak error but java.util.Scanner did?
-        //test eclipse branch commit
+        //test
     }
 }

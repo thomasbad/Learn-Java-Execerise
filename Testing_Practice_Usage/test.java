@@ -15,6 +15,6 @@ public class test{
         a.addItem();
         b.deleteItem();
         //TODO: why there is not need to do a.close() to close the mem slot and no res leak error? 
-        // test out git sync back
+        // test out git sync again 3
     }
 }

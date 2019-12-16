@@ -1,28 +1,31 @@
-
 public class Lecture2_Q4v2 {
-	public static int x = 1;
+	public int x = 1;
 	
-	public static void result1() {
+	public void result1() {
 		System.out.println("Divided by 3 or 5:");
-		for (int x = 1; x <= 50; x++) {
+		while (x <= 50) {
 			if (x % 3 == 0 || x % 5 == 0) {
 				System.out.print(x + " ");
 			}
+			x++;
 		}
 	}
 		
-	public static void result2() {
+	public void result2() {
 		System.out.println("Divided by both 3 and 5:");
-		for (int x = 1; x <= 50; x++) {
+		while (x <= 50) {
 			if (x % 3 == 0 && x % 5 == 0) {
 				System.out.print(x + " ");
 			}
+			x++;
 		}
 	}
 	
 	public static void main (String args[]) {
-		result1();
+		Lecture2_Q4v2 a = new Lecture2_Q4v2();
+		Lecture2_Q4v2 b = new Lecture2_Q4v2();
+		a.result1();
 		System.out.println();
-		result2();
+		b.result2();
 	}
 }

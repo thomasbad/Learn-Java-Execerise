@@ -1,19 +1,22 @@
 public class test{
-    public int items = 10;
-
-    public void addItem(){
-        items = items + 1;
-        System.out.println("Number of Items = " + items);
-    }
-    public void deleteItem(){
-        items = items - 1;
-        System.out.println("Number of Items = " + items);
-    }
-    public static void main(String args[]){
-        test a = new test();
-        test b = new test();
-        a.addItem();
-        b.deleteItem();
-        //TODO: why there is not need to do a.close() to close the mem slot and no res leak error?
-    }
+	public static void main (String args[]) {
+		int x = 1;
+		
+		System.out.println("Divided by 3 or 5:");
+		while (x <= 50) {
+			if (x % 3 == 0 || x % 5 == 0) {
+				System.out.print(x + " ");
+			}
+			x++;
+		}
+		System.out.println();
+		
+		System.out.println("Divided by both 3 and 5:");
+		while (x <= 50) {
+			if (x % 3 == 0 && x % 5 == 0) {
+				System.out.print(x + " ");
+			}
+			x++;
+		}
+	}
 }

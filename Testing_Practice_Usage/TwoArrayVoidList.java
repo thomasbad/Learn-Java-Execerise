@@ -1,7 +1,7 @@
 public class TwoArrayVoidList {
     public static void main(String args[]) {
       int arr[][] = new int [3][];
-      arr[0] = new int [2];
+      arr[0] = new int [2]; //Tell the system how many column exist in provided row
       arr[1] = new int [4];
       arr[2] = new int [3];
       

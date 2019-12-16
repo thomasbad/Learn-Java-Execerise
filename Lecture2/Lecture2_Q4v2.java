@@ -1,4 +1,6 @@
-public class Lecture2_Q4 {	
+
+public class Lecture2_Q4v2 {
+	public static int x = 1;
 	
 	public static void result1() {
 		System.out.println("Divided by 3 or 5:");
@@ -23,5 +25,4 @@ public class Lecture2_Q4 {
 		System.out.println();
 		result2();
 	}
-		
 }

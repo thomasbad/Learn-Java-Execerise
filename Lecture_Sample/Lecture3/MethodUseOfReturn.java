@@ -1,3 +1,4 @@
+package Lecture3;
 public class MethodUseOfReturn {
     public static int sum(int a, int b){
         int sum = a + b;

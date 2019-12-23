@@ -1,3 +1,4 @@
+package Lecture3;
 public class UseOfCollectAndReturn {
     static int[] collect(){
         return new int[] {1, 3, 5, 5, 7, 9, 11};

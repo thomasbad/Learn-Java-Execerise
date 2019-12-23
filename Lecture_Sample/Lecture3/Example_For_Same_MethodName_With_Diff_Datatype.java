@@ -1,3 +1,4 @@
+package Lecture3;
 public class Example_For_Same_MethodName_With_Diff_Datatype {
     public static int sum(int val1, int val2){
         int result = val1 + val2;

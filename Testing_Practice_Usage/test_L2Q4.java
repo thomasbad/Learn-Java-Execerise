@@ -1,4 +1,4 @@
-public class testL2Q4{
+public class test_L2Q4{
 	public static void main (String args[]) {
 		int x = 1;
 		

@@ -1,3 +1,4 @@
+package Lecture3;
 public class MethodExample {
     public static void sum(int a, int b){
         System.out.println("The sum is: " + (a + b));

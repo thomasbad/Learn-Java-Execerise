@@ -1,3 +1,4 @@
+package Lecture3;
 public class TwoArrayVoidList {
     public static void main(String args[]) {
       int arr[][] = new int [3][];

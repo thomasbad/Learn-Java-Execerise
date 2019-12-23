@@ -1,3 +1,4 @@
+package Lecture3;
 public class ThreeArrayStandardForm {
     public static void main(String args[]) {
       int[][][] arr = new int[2][1][3]; //3D Array form

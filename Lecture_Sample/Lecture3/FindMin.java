@@ -1,3 +1,4 @@
+package Lecture3;
 public class FindMin {
     static void min(int arrz[]){ //create function
         int min = arrz[0]; //Assume min is the 1st element within array

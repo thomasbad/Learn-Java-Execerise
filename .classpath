@@ -4,7 +4,7 @@
 	<classpathentry kind="src" path="Lecture_Sample"/>
 	<classpathentry kind="src" path="Lecture2"/>
 	<classpathentry kind="src" path="Testing_Practice_Usage"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
